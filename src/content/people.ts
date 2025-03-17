@@ -19,6 +19,7 @@ import SKim from "@/../public/headshots/skim.jpg";
 import LRojas from "@/../public/headshots/lrojas.png";
 import DCao from "@/../public/headshots/dcao.jpg";
 import SKanosue from "@/../public/headshots/skanosue.jpg";
+import PKallanagoudar from "@/../public/headshots/pkallanagoudar.jpeg";
 
 export interface Person {
   id: string;
@@ -157,5 +158,12 @@ export const PEOPLE = [
     role: "Undergraduate Student Assistant",
     headshot: LRojas,
     website: "https://www.linkedin.com/in/liliana-rojasl/",
+  },
+  {
+    id: "pkallanagoudar",
+    name: "Pragya Kallanagoudar",
+    role: "Undergraduate Student",
+    headshot: PKallanagoudar,
+    website: "https://www.linkedin.com/in/pragya-kallanagoudar/",
   },
 ];
